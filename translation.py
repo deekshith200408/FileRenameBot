@@ -1,9 +1,13 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
+    START_TEXT = """🤓🤹 ʜɪ {} ,
 
-<b>Bot Maintained By: @MaI_BoTs </b> \n 
-<b> I Can Also Download/Upload Files From Zee5</b> \n
-<b>Do /help for more Details ...</b> \n
+🏅☄️ ɪ'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇʀ+ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ!💯⚡
+
+🧸ʙᴏᴛ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ~ @Deeks_04_8.👨🏻‍🎨
+
+🕵️ ɪ ᴄᴀɴ ᴀʟsᴏ ᴅᴏᴡɴʟᴏᴀᴅ/ᴜᴘʟᴏᴀᴅ ғɪʟᴇs ғʀᴏᴍ ᴢᴇᴇ5.🏇
+
+ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ ʜɪᴛ ⏩ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ...📽️
 """
 
     RENAME_403_ERR = "What Are You Doing? Bruuh!!"
@@ -34,11 +38,17 @@ class Translation(object):
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
     ABOUT_ME = """<b>Meh : \n An Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n i can also convert files into videos \n Feedback @No_OnE_Kn0wS_Me If You Found Meh Useful</b>"""
-    HELP_USER = """Ohh You Want Help?? 😅
-    
-1.🔹 <b>Send me any Telegram File.</b> \n
-2.🔹 <b>Reply to that message with /rename New file name.extnsion</b> \n
-3.🔹 <b> Send A Photo to make it as permanent Thumbnail</b> \n
-4.🔹 <b> I Can Also Convert Files Into Video through /c2v Command </b>   \n
-5.🔹 <b> Send Me Any Zee5 Url And I'll Upload It Into Telegram </b> \n \n <b>Made With Love By: @MaI_BoTs </b>"""
+HELP_USER = """𝙾𝚑𝚑 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝 𝙷𝚎𝚕𝚙?? 😅
+
+1.🔰 <b> 𝗦𝗲𝗻𝗱 𝗺𝗲 𝗮𝗻𝘆 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗙𝗶𝗹𝗲.</b> \n
+
+2.🔰 <b> 𝗥𝗲𝗽𝗹𝘆 𝘁𝗼 𝘁𝗵𝗮𝘁 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 /rename 𝗡𝗲𝘄 𝗳𝗶𝗹𝗲 𝗻𝗮𝗺𝗲.𝗲𝘅𝘁𝗻𝘀𝗶𝗼𝗻</b> \n
+
+3.🔰 <b> 𝗦𝗲𝗻𝗱 𝗔 𝗣𝗵𝗼𝘁𝗼 𝘁𝗼 𝗺𝗮𝗸𝗲 𝗶𝘁 𝗮𝘀 𝗽𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹</b> \n
+
+4.🔰 <b> 𝗜 𝗖𝗮𝗻 𝗔𝗹𝘀𝗼 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗙𝗶𝗹𝗲𝘀 𝗜𝗻𝘁𝗼 𝗩𝗶𝗱𝗲𝗼 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 /c2v 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 </b> \n
+
+5.🔰 <b> 𝗦𝗲𝗻𝗱 𝗠𝗲 𝗔𝗻𝘆 𝗭𝗲𝗲5 𝗨𝗿𝗹 𝗔𝗻𝗱 𝗜'𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁 𝗜𝗻𝘁𝗼 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 </b> \n 
+
+\n <b>𝗠𝗮𝗱𝗲 𝗪𝗶𝘁𝗵 𝗟𝗼𝘃𝗲 𝗕𝘆 :~  @Deeks_04_8 </b>" </b>"""
 

@@ -1,44 +1,79 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
+    START_TEXT = """ 🤓🤹 ʜɪ {} ,
 
-<b>Bot Maintained By: @MaI_BoTs </b> \n 
-<b> I Can Also Download/Upload Files From Zee5</b> \n
-<b>Do /help for more Details ...</b> \n
+🏅☄️ ɪ'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇʀ+ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ!💯⚡
+
+🧸ʙᴏᴛ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ~ @Deeks_04_8.👨🏻‍🎨
+
+🕵️ ɪ ᴄᴀɴ ᴀʟsᴏ ᴅᴏᴡɴʟᴏᴀᴅ/ᴜᴘʟᴏᴀᴅ ғɪʟᴇs ғʀᴏᴍ ᴢᴇᴇ5.🏇
+
+ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ ʜɪᴛ ⏩ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ...
 """
 
-    RENAME_403_ERR = "What Are You Doing? Bruuh!!"
-    BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @No_OnE_Kn0wS_Me For more Details.. " 
-    ABS_TEXT = "What Are You Trying To Do,Mate?"
-    UPGRADE_TEXT = "CONTACT @No_OnE_Kn0wS_Me "
-    DOWNLOAD_START = "<b>Downloading To My server !! pls Wait</b>"
-    UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TG</b>"
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry Do You Think! I'll Upload It?"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me SHARE > ❤️**"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
-    NOT_AUTH_USER_TEXT = "CONTACT @No_OnE_Kn0wS_Me "
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @No_OnE_Kn0wS_Me "
-    SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved ✅ This Is Permanent Until</b> /delthumb ❤"
-    DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared succesfully🤦"
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "<b>File Downloaded Successfully 😎</b>"
-    REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Please Reply To An File With /rename fil name extension To rename a file</b>"
-    REPLY_TO_DOC_FOR_C2V = "<b> Please Reply To An File With /c2v To Convert It Into Streamable video File</b>"
-    REPLY_TO_DOC_FOR_C2A = "<b> Please Reply To An File/video With /c2a To Convert It Into Audio File</b>"
-    CUSTOM_CAPTION_UL_FILE = " "
-    NO_THUMB_FOUND = "No Thumbnail found"
-    FORMAT_SELECTION = """<b>Choose appropriate option</b> <a href='{}'>⬇️</a>
-🎞  - Stream format
-📁  - File format
-<i>NOTE : Taking high resolutions may result in files above 2GB and hence cannot Upload to TG. So better select a medium resolution.</i> 😇
-"""
+    RENAME_403_ERR = "😃ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ? ʙʀᴜᴜʜ!"
+    BANNED_USER_TEXT = "😌sᴏʀʀʏ!! ʙᴜᴛ ᴍᴀɪ ᴏᴡɴᴇʀ ᴀs ʙᴀɴɴᴇᴅ ʏᴏᴜ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜɪs sᴇʀᴠɪᴄe ᴛʜᴀᴛ ᴍᴇᴀɴs ʏᴏᴜ ᴄᴀɴ'ᴛ ʀᴜɴ ᴍᴇʜ ɴᴏᴡ! ᴄᴏɴᴛᴀᴄᴛ : @Deeks_04_8 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs.. "
+    ABS_TEXT = "🤩ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴛʀʏɪɴɢ ᴛᴏ ᴅᴏ,ᴍᴀᴛᴇ?"
+    UPGRADE_TEXT = "🤓ᴄᴏɴᴛᴀᴄᴛ @Deeks_04_8"
+    DOWNLOAD_START = "☄️ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ !! ᴘʟs ᴡᴀɪᴛ"
+    UPLOAD_START = "⚡☄️ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɴᴏᴡ ɪ'ᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ɪɴᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ"
+    RCHD_TG_API_LIMIT = "☄️🤹ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs. ᴅᴇᴛᴇᴄᴛᴇᴅ ғɪʟᴇ sɪᴢᴇ: {}  
+
+sᴏʀʀʏ ᴅᴏ ʏᴏᴜ ᴛʜɪɴᴋ! ɪ'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ?"  
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**👔ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴍᴇ sʜᴀʀᴇ ❤️**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"                                                                                                                                                                                                                         
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "ɪғ ʏᴏᴜ ɢᴏᴛ ᴛʜɪs ᴍᴇssᴀɢᴇ ʏᴏᴜ sʜᴏᴜʟᴅ ᴄᴏɴᴛᴀᴄᴛ @ᴅᴇᴇᴋs_04_8"
+    SAVED_CUSTOM_THUMB_NAIL = "🤩ᴛʜᴜᴍʙɴᴀɪʟ sᴀᴠᴇᴅ 👨🏻‍🎨 ᴛʜɪs ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴜɴᴛɪʟ /delthumb❤"                                                                                                                                                                                                                                                                                                                                                                         
+    DEL_ETED_CUSTOM_THUMB_NAIL = "😌ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ🤦"
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA =  "😌ᴍᴇᴅɪᴀ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ."   
+    SAVED_RECVD_DOC_FILE = "💥💯ғɪʟᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 😎"
+    REPLY_TO_DOC_FOR_RENAME_FILE = "🗣️ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀɴ ғɪʟᴇ ᴡɪᴛʜ /rename ғɪʟ ɴᴀᴍᴇ ᴇxᴛᴇɴsɪᴏɴ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴀ ғɪʟᴇ💦"
+    REPLY_TO_DOC_FOR_C2V = "😜ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀɴ ғɪʟᴇ /video ᴡɪᴛʜ /c2v ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ"
+    REPLY_TO_DOC_FOR_C2A = "😜ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀɴ ғɪʟᴇ /video ᴡɪᴛʜ /c2a ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ɪɴᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ"
+    CUSTOM_CAPTION_UL_FILE = "✪⍟ ━━━◈🅤🅜🅡◈━━━ ⍟✪"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    NO_THUMB_FOUND = "😶ɴᴏ ᴛʜᴜᴍʙɴᴀɪʟ ғᴏᴜɴᴅ😤"
+    FORMAT_SELECTION = """<b>🧐ᴄʜᴏᴏsᴇ ᴀᴘᴘʀᴏᴘʀɪᴀᴛᴇ ᴏᴘᴛɪᴏɴ</b> <a href='{}'>⬇️</a>
+             🎞  - 𝗦𝘁𝗿𝗲𝗮𝗺 𝗳𝗼𝗿𝗺𝗮𝘁                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+              
+             📁  - 𝗙𝗶𝗹𝗲 𝗳𝗼𝗿𝗺𝗮𝘁
+             
+   <i>𝗡𝗢𝗧𝗘 : 𝗧𝗮𝗸𝗶𝗻𝗴 𝗵𝗶𝗴𝗵 𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻𝘀 𝗺𝗮𝘆 𝗿𝗲𝘀𝘂𝗹𝘁 𝗶𝗻 𝗳𝗶𝗹𝗲𝘀 𝗮𝗯𝗼𝘃𝗲 2𝗚𝗕 𝗮𝗻𝗱 𝗵𝗲𝗻𝗰𝗲 𝗰𝗮𝗻𝗻𝗼𝘁 𝗨𝗽𝗹𝗼𝗮𝗱 𝘁𝗼 𝗧𝗚. 𝗦𝗼 𝗯𝗲𝘁𝘁𝗲𝗿 𝘀𝗲𝗹𝗲𝗰𝘁 𝗮 𝗺𝗲𝗱𝗶𝘂𝗺 𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻.</i> 😇
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            """                                                             """
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
-    ABOUT_ME = """<b>Meh : \n An Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \n i can also convert files into videos \n Feedback @No_OnE_Kn0wS_Me If You Found Meh Useful</b>"""
+    IFLONG_FILE_NAME =  """😬𝙱𝚛𝚘𝚘. 𝙿𝚕𝚎𝚊𝚜𝚎 𝙳𝚎𝚌𝚛𝚎𝚊𝚜𝚎 𝚃𝚑𝚎 𝙽𝚞𝚖𝚋𝚎𝚛 𝙾𝚏 𝙻𝚎𝚝𝚝𝚎𝚛𝚜 𝚞 𝚙𝚞𝚝𝚝𝚎𝚍😆😉"""
+    ABOUT_ME = """🤩𝗔𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗙𝗶𝗹𝗲 𝗥𝗲𝗻𝗮𝗺𝗲𝗿 𝗕𝗼𝘁 𝗪𝗵𝗶𝗰𝗵 𝗖𝗮𝗻 𝗥𝗲𝗻𝗮𝗺𝗲 𝗔 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗙𝗶𝗹𝗲𝘀. 🏇𝗬𝗼𝘂 𝗖𝗮𝗻 𝗦𝗲𝘁 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗙𝗼𝗿 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 𝗦𝗼 𝗬𝗼𝘂 𝗗𝗼𝗻'𝘁 𝗛𝗮𝘃𝗲 𝗧𝗼 𝗦𝗲𝗻𝗱 𝗖𝘂𝘀𝘁𝗼𝗺 𝗧𝗵𝘂𝗺𝗯𝘀 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗧𝗶𝗺𝗲.🏇𝗶 𝗰𝗮𝗻 𝗮𝗹𝘀𝗼 𝗰𝗼𝗻𝘃𝗲𝗿𝘁 𝗳𝗶𝗹𝗲𝘀 𝗶𝗻𝘁𝗼 𝘃𝗶𝗱𝗲𝗼𝘀👨🏻‍🎨.""" 
+    
     HELP_USER = """Ohh You Want Help?? 😅
     
-1.🔹 <b>Send me any Telegram File.</b> \n
-2.🔹 <b>Reply to that message with /rename New file name.extnsion</b> \n
-3.🔹 <b> Send A Photo to make it as permanent Thumbnail</b> \n
-4.🔹 <b> I Can Also Convert Files Into Video through /c2v Command </b>   \n
-5.🔹 <b> Send Me Any Zee5 Url And I'll Upload It Into Telegram </b> \n \n <b>Made With Love By: @MaI_BoTs </b>"""
+    1.🔰 <b>𝗦𝗲𝗻𝗱 𝗺𝗲 𝗮𝗻𝘆 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗙𝗶𝗹𝗲.</b> \n
+
+2.🔰 <b>𝗥𝗲𝗽𝗹𝘆 𝘁𝗼 𝘁𝗵𝗮𝘁 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 /rename 𝗡𝗲𝘄 𝗳𝗶𝗹𝗲 𝗻𝗮𝗺𝗲.𝗲𝘅𝘁𝗻𝘀𝗶𝗼𝗻</b> \n
+
+3.🔰 <b> 𝗦𝗲𝗻𝗱 𝗔 𝗣𝗵𝗼𝘁𝗼 𝘁𝗼 𝗺𝗮𝗸𝗲 𝗶𝘁 𝗮𝘀 𝗽𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹</b> \n
+
+4.🔰 <b> 𝗜 𝗖𝗮𝗻 𝗔𝗹𝘀𝗼 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗙𝗶𝗹𝗲𝘀 𝗜𝗻𝘁𝗼 𝗩𝗶𝗱𝗲𝗼 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 /c2v 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 </b> \n
+
+5.🔰 <b> 𝗦𝗲𝗻𝗱 𝗠𝗲 𝗔𝗻𝘆 𝗭𝗲𝗲5 𝗨𝗿𝗹 𝗔𝗻𝗱 𝗜'𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁 𝗜𝗻𝘁𝗼 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 </b> \n 
+
+\n <b>𝗠𝗮𝗱𝗲 𝗪𝗶𝘁𝗵 𝗟𝗼𝘃𝗲 𝗕𝘆 :~  @Deeks_04_8 </b>"""
+  
 
